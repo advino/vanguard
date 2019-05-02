@@ -38,10 +38,19 @@ main {
 }
 
 #screen-container {
+  display: flex;
+  align-items: center;
   width: 30%;
   background-image: url('noise-bg-black.png');
   background-repeat: repeat;
   box-shadow: inset 0 0 8px #000000;
+}
+
+#screen-image {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: auto;
 }
 
 #module-wrapper {
