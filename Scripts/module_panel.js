@@ -71,7 +71,7 @@ function createModule(value) {
   }
 
   img.ondblclick = e => {
-    
+
   }
 
   // Append the module to the main container
@@ -149,5 +149,6 @@ function closeOptions() {
 module.exports = {
   createModule,
   openOptions,
-  closeOptions
+  closeOptions,
+  setLine
 };
