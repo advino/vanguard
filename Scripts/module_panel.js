@@ -71,7 +71,7 @@ function createModule(value) {
   }
 
   img.ondblclick = e => {
-
+    let mlUI = window.open('','ML Interface', 'width=640, height=480, resizable=0');
   }
 
   // Append the module to the main container
@@ -87,7 +87,6 @@ function setLine(line, ox, oy, e) {
   line.setAttribute('stroke-width', 3);
   line.setAttribute('stroke-linecap', 'round');
 }
-
 
 function openOptions(value) {
   // Create back button and hide the main menu

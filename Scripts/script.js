@@ -95,10 +95,6 @@ function insertWireframe(value) {
     }
   }
 
-  img.ondblclick = e => {
-
-  }
-
   // Append the module to the main container
   main.appendChild(img);
 }
