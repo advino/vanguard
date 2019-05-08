@@ -71,7 +71,7 @@ function createModule(value) {
   }
 
   img.ondblclick = e => {
-    let mlUI = window.open('','ML Interface', 'width=640, height=480, resizable=0');
+    let mlUI = window.open('mlUI.html','ML Interface', 'width=640, height=480, resizable=0');
   }
 
   // Append the module to the main container
