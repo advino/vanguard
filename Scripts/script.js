@@ -25,7 +25,12 @@ for (let b of bars) {
 
 document.addEventListener('keypress', e => {
   count++;
-  screenImg.src = `./Style/Assets/Images/${count}.png`;
+  if(count <= 5) {
+    screenImg.src = `./Style/Assets/Images/${count}.png`;
+  } else {
+    count = 0;
+    screenImg.src = `./Style/Assets/Images/${count}.png`;
+  }
 });
 
 function insertWireframe(value) {
