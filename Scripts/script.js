@@ -9,7 +9,7 @@ let screenImg = document.getElementById('screen-image');
 
 let count = 0;
 
-insertWireframe('./Scripts/Core/Core Module.svg');
+insertWireframe('./Style/Assets/Core/Core Module.svg');
 
 // Create a back button to return to the main menu
 moduleTitle.addEventListener('click', e => {
