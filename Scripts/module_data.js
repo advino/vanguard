@@ -12,7 +12,7 @@ const modules = {
   human: {
     title: "Human",
     description: "This set of modules help create human experiences. Use them to help build trust in your users, comprehendability in your deisgns, and strengthen the realtionship between product and consumer.",
-    links: ['./Style/Assets/Human/friendly.svg']
+    links: ['./Style/Assets/Human/friendly.svg','./Style/Assets/Human/friendly_mom.svg', './Style/Assets/Human/friendly_kids.svg', './Style/Assets/Human/friendly_couples.svg']
   },
   perception: {
     title: "Perception",
